@@ -1,1 +1,145 @@
-/* your code here */
+*{
+    margin: 0%;
+}
+
+body{
+    background-color: #10e37f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    background-color: #ffffff;
+    margin-inline:auto;
+    margin-top: 5vw;
+    width:42vw ;
+    height: 40vw ;
+    border-radius: 5px;
+}
+.detail{
+    margin-left: 40%;
+    padding-top: 10%;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;  
+   font-weight: 900;
+   color: #4c4c4c;
+}
+.code{
+    font-size: 10px;
+}
+.co{
+    font-size:4vw ;    
+}
+.price{
+    color:#fe3f40;
+    position: relative;
+    top: 2vw;
+}
+.select_item{
+    position: relative;
+    bottom: 3vw; 
+    font-size: 12px;
+
+}
+.gr{
+  font-weight: 600;  
+  color: #b5b5b5;
+}
+.variant{
+    position: relative;
+    top: 5vw;
+}
+.variant>img{
+    position: relative;
+    right: 6.7vw;
+    top: 0.5vw;
+  width: 2.4vw;
+  margin-inline: 3px;
+}
+.selected{
+    border: 1px solid #a5a5a5;
+    padding: 1px;
+    border-radius: 3px;
+}
+.description{
+    position: relative;
+    top: 6vw;
+}
+.ben{
+    font-size: 12px;
+}
+.description>ul>li{
+    font-size: 12px;
+    margin-top: 5px;
+}
+.btn{
+    padding: 1vw;
+    background-color: #fe3f40;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 0px;
+    position: relative;
+    top: 8vw;
+    box-shadow: 2px 2px  4px #c1b8b8;
+    width: 13vw;
+    height: 4vw;
+}
+
+
+
+
+
+
+
+.product__photo{
+    height: 28vw ;
+    z-index: 8000;
+    width: 20vw ;
+    background: rgb(205,234,152);
+background: radial-gradient(circle, rgba(205,234,152,1) 0%, rgba(155,226,12,1) 100%, rgba(239,239,245,1) 100%);
+position: absolute;
+top: 8vw;
+left: 25vw;
+border-radius: 5px;
+box-shadow: 2px #a5a5a5;
+}
+.photo-main>img{
+    width: 250px;
+   
+    position: relative;
+    top:3vw ;
+    right: 4vw;  
+}
+.photo-album{
+   background-color: #ffffff;
+   width: 20vw;
+   height: 8vw;
+   position: relative;
+   top: 3.2vw;
+   right: 0px;
+   overflow: hidden;
+   border-radius: 12px;
+   
+}
+li>img{
+    margin-top: 1.5vw;
+    width: 34px;
+    margin-inline:3px;
+    border: 1px solid #a5a5a5;
+    padding: 2px;
+    
+}
+.photo-album>ul>li{
+    display: inline;
+    position: relative;
+    right: 1vw;
+    top: 1vw;  
+}
+.buffer{
+    background-color: #ffffff;
+    width: 20vw;
+    height: 20px;
+    position: relative;
+    top: 26vw;
+}
